@@ -16,7 +16,7 @@ input {
   width: 50%;
 }
 
-
+/* grid template auto-fit for responsive */
 #beers {
   padding: 2rem;
   display: grid;
