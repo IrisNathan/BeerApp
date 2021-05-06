@@ -12,6 +12,9 @@ feature. The information displayed on web page is done from back end using [Punk
 - EJS
 - CSS
 
-## View Deployed Web Page Here
+## Instructions
+
+See the project in the wild:
 
 [Punk API Beer App](https://arcane-beerapi.herokuapp.com/)
+
