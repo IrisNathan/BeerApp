@@ -1,5 +1,5 @@
 # BeerApp
-## About
+
 Punk Api Web App
 
 This project retrieves BrewDog catalogue of the first 80 beers with a search for beer 
