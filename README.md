@@ -18,3 +18,10 @@ See the project in the wild:
 
 [Punk API Beer App](https://arcane-beerapi.herokuapp.com/)
 
+or 
+
+- Clone the repo
+- Run npm install
+- In terminal run node app.js
+- Open broswer to localhost:3000
+
