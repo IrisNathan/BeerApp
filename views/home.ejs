@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<!-- search bar -->
+<div class="container my-4 text-center">
+  <form action="/searchResults">
+    <input type="search" 
+    placeholder="Search for beer by name or type" 
+    class="searchInput" name="searchBeer" value="">
+    <button class="btn btn-primary" id="btnSearch">Search</button>
+  </form>
+</div>
+
+<!-- display data -->
+<%- include('partials/card') %>
+
+<%- include('partials/footer') %>
+
+
+
+
+
+

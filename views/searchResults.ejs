@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="container my-4 text-center">
+  <form action="/searchResults">
+    <input type="search" 
+    placeholder="Search for another beer!" 
+    class="searchInput" name="searchBeer" value="">
+    <button class="btn btn-primary" id="btnSearch">Search</button>
+  </form>
+</div>
+
+<!-- display results of beer search -->
+
+<h1 class="text-center">Beer Search Results</h1>
+<div class="container-fluid" id="beers">
+  <% data.forEach(beers => { %>
+  <div class="card" style="max-width: 600px;">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="card-img mt-4" src= <%=beers.image_url%> alt= <%= beers.name %>>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h2 class="card-title mt-4"><%=beers.name%></h2>
+          <p class="card-text fw-light"><%=beers.tagline%></p>
+          <p class="card-text"><em> <%=beers.description%> </em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<% }); %>
+</div>
+
+
+<%- include('partials/footer') %>

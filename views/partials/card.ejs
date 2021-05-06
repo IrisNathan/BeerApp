@@ -1,0 +1,23 @@
+<!-- iterate thru array obj -->
+
+<div class="container-fluid" id="beers">
+  <% data.forEach(beers => { %>
+  <div class="card" style="max-width: 600px;">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="card-img mt-4" src= <%=beers.image_url%> alt= <%= beers.name %>>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h2 class="card-title mt-4"><%=beers.name%></h2>
+          <p class="card-text fw-light"><%=beers.tagline%></p>
+          <p class="card-text"><em> <%=beers.description%> </em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<% }); %>
+</div>
+
+
+

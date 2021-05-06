@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#brand {
+  font-size: xx-large;
+}
+
+.nav-link {
+  font-size: larger;
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+}
+
+
+#beers {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  
+}
+.card {
+  margin: 1rem 0 1rem 1.5rem;
+  padding: .25rem;
+  border: 2px solid gray;
+  border-radius: .5rem;
+  position: relative;
+  background-color: #e9e9e9;
+}
+
+.card-img { 
+  max-height: 300px;
+  max-width: 100px;
+  margin: 10px 0 5px 10px
+} 
+
+.card-title {
+  line-height: 1.15;
+  margin: .25rem 0;
+}
+
+.card-text {
+  margin-bottom: .25rem;
+}
+
